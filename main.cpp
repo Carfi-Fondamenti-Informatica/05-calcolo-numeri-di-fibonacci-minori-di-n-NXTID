@@ -22,8 +22,9 @@ void serie(int a){
 }
 int main() {
     int n=0;
-
-    while(n<2){
+    cin>>n;
+    serie(n);
+    /*while(n<2){
         cin>>n;
 
         if(n<2){
@@ -33,6 +34,6 @@ int main() {
             serie(n);
             break;
         }
-    }
+    }*/
     return 0;
 }
