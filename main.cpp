@@ -1,6 +1,37 @@
 #include <iostream>
 using namespace std;
 
+void serie(int a){
+    int risultato=1;
+    int precedente=1;
+    int x=0;
+
+    cout<<risultato<<endl;
+    cout<<risultato<<endl;
+
+    for(int i=0; i>=0; i++){
+        x=risultato;
+        risultato= risultato+precedente;
+
+        if (risultato<=a){
+            cout<<risultato<<endl;
+            precedente=x;
+        }else
+            break;
+    }
+}
 int main() {
-   return 0;
+    int n=0;
+
+    while(n<2){
+        cin>>n;
+
+        if(n<2)
+            cout<<"errore"<<endl;
+        else if(n>=2){
+            serie(n);
+            break;
+        }
+    }
+    return 0;
 }
