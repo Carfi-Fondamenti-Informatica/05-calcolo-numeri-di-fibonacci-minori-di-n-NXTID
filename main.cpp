@@ -22,18 +22,9 @@ void serie(int a){
 }
 int main() {
     int n=0;
+    
     cin>>n;
     serie(n);
-    /*while(n<2){
-        cin>>n;
-
-        if(n<2){
-            cout<<"errore"<<endl;
-            break;
-        }else if(n>=2){
-            serie(n);
-            break;
-        }
-    }*/
+ 
     return 0;
 }
